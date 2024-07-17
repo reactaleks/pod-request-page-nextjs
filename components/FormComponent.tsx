@@ -1,20 +1,11 @@
 'use client'
 
-import { FormEvent } from "react";
-
 export default function FormComponent() {
-    async function onSubmit(event: FormEvent<HTMLFormElement>) {
-        event.preventDefault()
-
-        console.log('Form submitted.')
-    }
-
-
     return (
         <>
-            <form onSubmit={onSubmit}>
-                <input type="email" name="email" placeholder="Email address"/>
-                <button type="submit">Request Access</button>
+            <form className="w-[327px] h-[108px] flex flex-col justify-between">
+                <input type="email" name="email" placeholder="Email address" className="w-full h-[46px] bg-darkergray rounded-full pl-8 font-chivo text-[14px] font-bold text-gray"/>
+                <button type="submit" className="w-full h-[46px] bg-green text-black rounded-full font-chivo text-[14px] font-bold">Request Access</button>
             </form>
         </>
     )
