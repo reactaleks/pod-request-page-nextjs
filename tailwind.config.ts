@@ -29,7 +29,13 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'mobile-patern': "url('/mobile/image-host.jpg')",
+        'tablet-patern': "url('/tablet/image-host.jpg')",
+
       },
+      backgroundSize: {
+        'tablet': '64%',
+        'big-tablet':  '55%'
+      }
 
     },
   },
