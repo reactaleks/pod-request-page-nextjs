@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen ">
       <div className="relative w-full min-h-screen bg-mobile-patern bg-cover">
         <div className="absolute bg-black w-full h-screen flex flex-col justify-center items-center bg-opacity-90">
-          <div className="absolute top-24 mx-auto">
+          <div className="absolute top-12 mx-auto">
             <LogoComponent />
           </div>
           <div>
