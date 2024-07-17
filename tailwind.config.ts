@@ -7,6 +7,25 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      chivo: 'Chivo'
+    },
+    fontSize: {
+      title: '52px',
+      body: '18px'
+    },
+    lineHeight: {
+      title: '62px',
+      body: '28px'
+    },
+    colors: {
+      white: '#FFFFFF',
+      black: '#121725',
+      gray: '#C2CBE5',
+      darkgray: '#5A668A',
+      darkergray: '#2C344B',
+      green: '54E6AF'
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
