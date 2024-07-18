@@ -7,3 +7,4 @@ This is a proejct created as part of front end mentor exercise. The main goal of
 - NextJS
 - TypeScript
 - TailwindCSS
+- ZOD email validation.

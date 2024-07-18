@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen md:bg-black relative overflow-hidden">
-      <div className="absolute bg-black w-full h-screen flex flex-col justify-center items-center bg-opacity-90 md:bg-opacity-0">
+      <div className="absolute bg-black w-full h-screen flex flex-col justify-center items-center bg-opacity-100">
         
         {/* Mobile background */}
         <div className="absolute w-full h-full bg-mobile-patern bg-cover md:hidden opacity-5">
