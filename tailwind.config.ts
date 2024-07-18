@@ -30,11 +30,14 @@ const config: Config = {
       backgroundImage: {
         'mobile-patern': "url('/mobile/image-host.jpg')",
         'tablet-patern': "url('/tablet/image-host.jpg')",
+        'desktop-patern': "url('/desktop/image-host.jpg')",
+
 
       },
       backgroundSize: {
-        'tablet': '64%',
-        'big-tablet':  '55%'
+        'tablet': '100%',
+        'big-tablet':  '100%',
+        'dekstop': '100%',
       }
 
     },
