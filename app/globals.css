@@ -6,6 +6,6 @@
 @layer base {
   @font-face {
     font-family: 'Chivo';
-    src: url('/public/fonts/Chivo-VariableFont_wght.ttf');
+    src: url('../public/fonts/Chivo-VariableFont_wght.ttf');
   }
 }

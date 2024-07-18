@@ -24,14 +24,22 @@ const config: Config = {
       gray: '#C2CBE5',
       darkgray: '#5A668A',
       darkergray: '#2C344B',
-      green: '54E6AF'
+      green: '#54E6AF'
     },
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'mobile-patern': "url('/mobile/image-host.jpg')",
+        'tablet-patern': "url('/tablet/image-host.jpg')",
+        'desktop-patern': "url('/desktop/image-host.jpg')",
+
+
       },
+      backgroundSize: {
+        'tablet': '100%',
+        'big-tablet':  '100%',
+        'dekstop': '100%',
+      }
+
     },
   },
   plugins: [],
